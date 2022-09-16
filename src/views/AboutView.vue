@@ -1,7 +1,10 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <div><el-button>Default</el-button></div>
+    <div>
+      <el-button><router-link to="/first">firstへ遷移</router-link></el-button>
+    </div>
+    <router-view />
   </div>
 </template>
 
